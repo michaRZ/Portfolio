@@ -1,0 +1,47 @@
+@import "../../global.scss";
+
+.about {
+    background-color: $secondaryColor;
+    display: flex;
+
+    .left {
+        flex: 0.5;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .right {
+        flex: 0.5;
+
+        .wrapper {
+            height: 100%;
+            padding: 0 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: $textColor;
+
+            h2 {
+                font-size: 40px;
+                //padding: 10px 0;
+            }
+    
+            p {
+                font-size: 15px;
+                line-height: 1.5em;
+                padding: 10px 0;
+    
+                a {
+                    text-decoration: none;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
+
