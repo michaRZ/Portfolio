@@ -1,0 +1,31 @@
+$mainColor: #877B6D;
+$secondaryColor: #E7E1D8;
+$textColor: #333;
+
+$breakpoint-lg: 2880px;
+$breakpoint-md: 768px;
+$breakpoint-sm: 414px;
+
+@mixin LargeDevice {
+  @media (min-width: #{$breakpoint-lr + 1}) {
+    @content;
+  }
+}
+
+@mixin mediumDevice {
+  @media (max-width: #{$breakpoint-lr}) {
+    @content;
+  }
+}
+
+@mixin smallDevice {
+  @media (max-width: #{$breakpoint-md - 1px}) {
+    @content;
+  }
+}
+
+@mixin extraSmallDevice {
+  @media (max-width: #{$breakpoint-sm - 1px}) {
+    @content;
+  }
+}
