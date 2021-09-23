@@ -17,12 +17,11 @@ export default function Portfolio() {
     ];
 
     useEffect(() => {
-
         switch (selected){
             case "projects":
                 setData(projects);
                 break;
-            case "tools":
+            case "challenges":
                 setData(challenges);
                 break;
             default: 

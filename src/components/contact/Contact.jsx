@@ -25,7 +25,7 @@ export default function Contact() {
             </div>
             <div className="right">
                 <h2>Get in touch</h2>
-                <form action="mailto:kellar.dev@gmail.com" 
+                <form action="https://formspree.io/f/mayavkje" 
                 method="POST"
                 enctype="multipart/form-data"
                 name="EmailForm"

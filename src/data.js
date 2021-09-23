@@ -34,7 +34,17 @@ export const projects = [
 export const challenges = [
     {
         id: 1,
-        //title: "Challenge",
+        title: "Challenge",
+        img: "assets/Portfolio-Snapshot.png"
+    },
+    {
+        id: 2,
+        title: "Challenge",
+        img: "assets/Portfolio-Snapshot.png"
+    },
+    {
+        id: 3,
+        title: "Challenge",
         img: "assets/Portfolio-Snapshot.png"
     }
 ];
