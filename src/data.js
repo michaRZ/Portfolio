@@ -1,18 +1,24 @@
 export const projects = [
     {
         id: 1,
+        title: "HIVE Property Management MVC application",
+        img: "assets/hive-homepage-screenshot.png",
+        link: "https://hivepropmgmtwebmvc.azurewebsites.net/"
+    },
+    {
+        id: 2,
         title: "Bug Tracker API",
         img: "assets/BugTracker-Postman.png",
         link: "https://github.com/michaRZ/BugTracker"
     },
     {
-        id: 2,
+        id: 3,
         title: "React Personal Portfolio",
         img: "assets/Portfolio-about.png",
         link: "https://github.com/michaRZ/Portfolio"
     },
     {
-        id: 3,
+        id: 4,
         title: "Harry Potter Console Game",
         img: "assets/HP-console-game.png",
         link: "https://github.com/michaRZ/HP_ConsoleGame"
